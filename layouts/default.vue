@@ -1,6 +1,9 @@
 <template>
-  <div class="relative">
-    <Header />
-     <img class="absolute inset-0 w-full" src="https://images.unsplash.com/photo-1588522943401-6ba285f692de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80">
+  <div class="relative h-full flex flex-col">
+    <div class="flex bg-header-image flex-col">
+      <Header />
+      <HeroSection />
+    </div>
+    <ServicesSection />
   </div>
 </template>
